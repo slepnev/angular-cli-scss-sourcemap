@@ -1,4 +1,4 @@
-# Angular CLI 1.7.4 SCSS sourcemap fix
+# Angular CLI 1.7.4 scss sourcemap fix
 
 `./node_modules/@angular/cli/models/webpack-configs/styles.js`
 
@@ -35,4 +35,5 @@ const rules = baseRules.map(({ test, use }) => ({
 }));
 ```
 
+##### package.json
 `ng serve --sourcemap --extractCss   // has sourcemap ` 
