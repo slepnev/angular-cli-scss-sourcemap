@@ -2,7 +2,7 @@
 
 `./node_modules/@angular/cli/models/webpack-configs/styles.js`
 
-**...line 180**
+**in line 180**
 
 ```javascript
 // const commonLoaders = [
