@@ -3,7 +3,8 @@
 ##### npm
 `npm install --save css-loader exports-loader`
 
-##### ./node_modules/@angular/cli/models/webpack-configs/styles.js `in line 180`
+##### ./node_modules/@angular/cli/models/webpack-configs/styles.js
+`in line 180`
 ```javascript
 // const commonLoaders = [
 //     { loader: 'raw-loader' },
