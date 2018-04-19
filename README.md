@@ -39,5 +39,18 @@ const rules = baseRules.map(({ test, use }) => ({
 }));
 ```
 
+##### ./node_modules/@angular/cli/models/webpack-configs/common.js
+`in line 172`
+```javascript
+devtool: 'source-map',        // <- new
+resolve: {
+    extensions: ['.ts', '.js'],
+    symlinks: !buildOptions.preserveSymlinks,
+    modules: [appRoot, 'node_modules'],
+    alias
+},
+```
+
+
 ##### package.json
 `ng serve --sourcemap --extractCss   // has sourcemap ` 
