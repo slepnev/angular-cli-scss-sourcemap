@@ -2,6 +2,7 @@
 
 ##### npm
 `npm install --save css-loader exports-loader`
+`npm install --save-dev gulp gulp-inject gulp-inject-string gulp-sass gulp-sourcemaps map-stream`
 
 ##### ./node_modules/@angular/cli/models/webpack-configs/styles.js
 `in line 180`
